@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "308557680383",
+    "project_id": "bamtol-market-app",
+    "storage_bucket": "bamtol-market-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308557680383:android:1650bba2cfcc2f5446c6ca",
+        "android_client_info": {
+          "package_name": "com.devman.cloneapp.bamtol_market_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308557680383-eh05qde3b2ml9ifpdja4cvacb487auml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABSp9uc6I1UcEWWt3Ldt0BjkLebYSdZHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308557680383-eh05qde3b2ml9ifpdja4cvacb487auml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
