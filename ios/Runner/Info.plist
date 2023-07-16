@@ -58,5 +58,9 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>상품 이미지를 제공할 목적으로 사진첩에 접근이 필요합니다.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>지역기반의 서비스로, 위치 액세스 권한이 필요합니다.</string>
 </dict>
 </plist>
