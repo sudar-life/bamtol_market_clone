@@ -49,7 +49,6 @@ class HomeController extends GetxController {
   Future<void> _loadProductList() async {
     isLoading(true);
     var result = await _productRepository.getProducts(searchOption);
-    await Future.delayed(Duration(milliseconds: 1500));
     if (result.lastItem != null) {
       searchOption = searchOption.copyWith(lastItem: result.lastItem);
     } else {

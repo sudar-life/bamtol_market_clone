@@ -34,7 +34,7 @@ class ProductSearchOption extends Equatable {
     if (ownerId != null) {
       query = query.where('owner.uid', isEqualTo: ownerId);
     }
-    query.orderBy('createdAt', descending: true);
+    query = query.orderBy('createdAt', descending: true);
     return query;
   }
 
